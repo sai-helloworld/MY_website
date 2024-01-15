@@ -1,0 +1,61 @@
+body{
+    background-color: #80FF00;
+    margin: 0px 0px 0px 0px;
+}
+#header{
+    display:inline;
+    padding: 0px 0px 0px 0px;
+}
+#navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #c7f9cc;
+    border: 2px solid #000;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#button {
+    margin-right: 5px;
+}
+#tractor{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 4px solid #507043;
+    background-image: url("tractor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border-radius: 50px;
+    z-index: 10;
+  }
+  #products{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: row;
+    border: 4px solid black;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+.images{
+    width: 300px;
+    height: 400px;
+    margin: 20px 0px 0px 20px;
+    background-color: #c7f9cc;
+    border: 4px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.details1{
+    font-size: 25px;
+    font-weight: 10px;
+}
